@@ -22,7 +22,7 @@ while True:
 prices = {'apple': 20, 'banana': 15, 'orange': 25}
 while True:
     w = input('which item:')
-    if w == '結束別跑了':
+    if w == 'alr':
         break
     if w in prices:
         print(prices[w])
